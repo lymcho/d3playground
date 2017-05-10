@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>d3test</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<br>
+
+<p align="center">Rate Your Skills</p>
+
+<!-- designer1 #! -->
+
+<div class="designer">
+<h1>Ling Zhou</h1>
+<p><i>rate your skill level (1-5)</i></p>
+<div class="container">
+<div class="row">
+<form action="" id="lingskill" method="post" >
+<label for="sum1">ui/ux</label>
+<input type="text" id="sum1"><br>
+<label for="sum2">branding</label>
+<input type="text" id="sum2"><br>
+<label for="sum3">illustration</label>
+<input type="text" id="sum3"><br>
+<label for="sum4">photo/video</label>
+<input type="text" id="sum4"><br>
+<label for="sum5">coding</label>
+<input type="text" id="sum5"><br>
+<label for="hour"><strong>hours/week</strong></label>
+<input type="text" id="hour"><br>
+</div>
+<div class="row">
+<div class="chart"></div>
+</div>
+</div>
+<button id = "show" type="button" onclick="return total()" value="">Visualize</button><br>
+</form>
+<div class="row">
+<p>your total skill points are:</p>
+ <div id="display" style="height: 50px; width: 100%;"></div>
+</div>
+
+
+</div>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script src="https://d3js.org/d3.v4.js"></script>
+<script src="main.js"></script>
+<script src="skills.js"></script>
+
+
+</body>
+</html>

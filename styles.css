@@ -1,0 +1,65 @@
+html{
+	font-size: 12px;
+	font-family: inconsolata;
+	padding: 40px;
+}
+h1{
+	font-size: 18px;
+	color:#312efc;
+}
+
+
+.designer{
+	padding:24px;
+	margin: 24px;
+	background: #f3f3f3;
+	display: flex;
+	flex-flow: column nowrap;
+
+}
+
+.container{
+	display: flex;
+	flex-flow: row wrap;
+/*	background-color: green;*/
+	margin: 0px 0px;
+
+}
+
+
+.container input{
+	margin:4px;
+	width: 40px;
+
+}
+
+.row{
+	padding:0px;
+	margin:8px 0px 16px 0px;
+/*	background: blue;*/
+	width: 240px;
+}
+
+
+button{
+	padding: 8px 8px;
+	color:white;
+	background: black;
+	border-style: none;
+	width: 64px;
+}
+
+.designer #display{
+	width: 100%;
+	color:black;
+}
+
+.chart div {
+	font:10px;
+	background-color:#312efc ;
+	text-align: left;
+	padding:4px;
+	margin:8px 0px;
+	color:white;
+
+}
